@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="" href="img/favicon-16x16.png">
+    <meta name="description" content="Curso de desarrollo web">
+    <meta name="viewport" content="width-device-width,initial-scale-1.0">
+<!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--css del proyecto-->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>Actividades Asincronas</title>
+</head>
+<body>
+    <header></header>
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <section class="container-fluid">
+              <a class="navbar-brand" href="index.html">Principal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <section class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="indextre.html">Sesion 13</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="indexcatorce.html">Sesion 14</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="indexquince.html">Sesion 15</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="indexdiecise.html">Sesion 16</a>
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </nav>
+    </nav>
+    <main>
+      <section class="p-3">
+        <h3>Ejercicio - 1</h3>
+        <p> Debe mostrar su bonificación y el sueldo final teniendo en cuenta que la empresa está dando una bonificación del 7% del sueldo básico sólo en el caso el trabajador tuviese hijos:</p>
+        <article>
+            <label>Nombre del trabajador</label>
+            <input type="text" id="nombreT"> 
+        </article>
+        <article>
+            <label>Ingrese el sueldo basico</label> 
+            <input type="number" id="sueldoB">
+        </article>
+        <article>
+            <label>Ingrese el número de hijos</label>
+            <input type="number" id="cantHijos"> 
+        </article>
+        <article>
+            <button id="btnSueldoNeto">Respuesta</button>
+            <p class="resultado" id="sueldoNeto"></p>        
+        </article>
+        <section>
+            <h3>Ejercicio - 2</h3>
+            <p>Si el número es mayor de 500, se debe calcular y mostrar en pantalla el 18% de este:</p>
+            <article>
+                <label>Ingrese el Numero</label>
+                <input type="number" id="numero">
+            </article>
+            
+            <button id="btnNumero">Respuesta</button>
+            <p id="numeroP"></p>
+        </section>
+        <section>
+            <h3>Ejercicio - 03</h3>
+            <p>Crea una aplicación que pida un número y calcule su factorial:</p>
+            <article>
+                <label>Ingrerse el numero que desea factorial</label>
+                <input type="number" id="nFact">
+            </article>
+            
+            <button id="btnFactorial">Respuesta</button>
+            <p class="resultado" id="factorial"></p>
+        </section>
+    </section>
+    </main>
+    <footer></footer>
+    </body>
+    </html>
+    <script src="js/quince.js"></script>
