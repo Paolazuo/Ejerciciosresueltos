@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(159, 207, 247);
+}
+
+.links{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.container{
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    background-color: azure;
+width: auto;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    background-color: rgb(132, 190, 243);
+}
